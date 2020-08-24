@@ -1,0 +1,84 @@
+button {
+  cursor: pointer;
+}
+
+#block {
+  height: 100px;
+  width: 100px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.todo .title {
+  color: blue;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.todo .list {
+  border-bottom: 1px solid #d2cfcf;
+}
+.todo .row {
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  border-top: 1px solid #80808024;
+}
+.todo .checkbox {
+  position: relative;
+  top: -13px;
+  cursor: pointer;
+  display: inline-block;
+  width: 5%;
+}
+
+.todo .text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  width: 80%;
+}
+.todo .clearButton {
+  position: relative;
+  display: inline-block;
+  top: -13px;
+  cursor: pointer;
+}
+
+.todo .textField {
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.todo #count {
+  margin-top: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+#parent {
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  background-color: blueviolet;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+}
+
+#child {
+  height: 50px;
+  width: 50px;
+  border: 1px solid;
+  background-color: greenyellow;
+  display: inline-block;
+}
+
+#hack {
+  visibility: hidden;
+}

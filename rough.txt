@@ -1,0 +1,40 @@
+Netscape  ------ navigator  ----- Livescript
+Microsft ------ IE ------- JScript
+
+JAVA
+
+------> ECMA (comunittee)   ---> JS
+
+ES5   - the version whihc gor published in a particular year - 2009
+ES6   - 2015
+ES7   - 2016
+
+
+// PRODUCT DEVELOPMENT
+1. delivering - (any super deep level is not required)
+2. good quality code - 
+       a) performance
+       b) scalability (customer base) ---- ( no deep level knowledge of a language)
+       c) bug free code
+       d) extensible ( no deep level knowledge of a language)
+3. UX - Design  -------------------------------------
+4. App flow
+
+
+customer
+1. UX
+2. flow
+3. Bug free
+4. performance
+
+ADD ---------------- SAVE
+------> 1(2) sec delay 30% customers
+
+
+a. Function scope
+b. global scope 
+c. block scope
+
+i) var - function scope and global scope
+ii) let - function scope and global scope and block scope
+iii) const - function scope and global scope and block scope. once we declare a variable with const, the value can never be changed
