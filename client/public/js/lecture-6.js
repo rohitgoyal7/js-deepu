@@ -225,7 +225,9 @@ Object.defineProperty(cObj, "d", {
 });
 
 for (let prop in cObj) {
+    // c and a
     if (cObj.hasOwnProperty(prop)) {
+        // c
         Object.defineProperty(cObj, prop, {
             writable: false,
         });
