@@ -49,34 +49,62 @@
 // console.log(p1.__proto__ === Person.prototype); // true
 // console.log(p2.__proto__ === Person.prototype); // true
 
-class Car {
-    constructor(wheels, color) {
-        this.wheels = wheels;
-        this.color = color;
-    }
-    printWheels() {
-        console.log(`the count of wheels is ${this.wheels}`);
-    }
-    print() {
-        console.log("parent print....");
-    }
-}
+// class Car {
+//     constructor(wheels, color) {
+//         this.wheels = wheels;
+//         this.color = color;
+//     }
+//     printWheels() {
+//         console.log(`the count of wheels is ${this.wheels}`);
+//     }
+//     print() {
+//         console.log("parent print....");
+//     }
+// }
 
-const c1 = new Car(4, "white");
-c1.printWheels();
+// const c1 = new Car(4, "white");
+// c1.printWheels();
 
-class Maruti extends Car {
-    constructor() {
-        super(4, "white");
-        this.brand = "Maruti";
-    }
-    printColor() {
-        console.log(`the count of color is ${this.color}`);
-    }
-    print() {
-        super.print();
-        console.log("local print");
-    }
-}
+// class Maruti extends Car {
+//     constructor() {
+//         super(4, "white");
+//         this.brand = "Maruti";
+//     }
+//     printColor() {
+//         console.log(`the count of color is ${this.color}`);
+//     }
+//     print() {
+//         super.print();
+//         console.log("local print");
+//     }
+// }
 
-const m1 = new Maruti();
+// const m1 = new Maruti();
+
+// const obj = {
+//     a: 1,
+//     print: function () {
+//         console.log(this.a); // obj
+//     },
+// };
+
+// obj.print();
+
+// function a() {
+//     console.log(this); // window
+// }
+// a();
+
+const obj = {
+    a: 1,
+    print: function () {
+        console.log(this); // obj
+        function printA() {
+            console.log(this); // window
+            console.log(this.a); // undefined
+        }
+        printA();
+    },
+};
+
+obj.print();

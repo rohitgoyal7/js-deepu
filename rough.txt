@@ -38,3 +38,20 @@ c. block scope
 i) var - function scope and global scope
 ii) let - function scope and global scope and block scope
 iii) const - function scope and global scope and block scope. once we declare a variable with const, the value can never be changed
+
+
+THIS - refers to the object who has called the function. -- classical functions
+
+
+
+ARROW vs CLASSICAL FUNCTION
+a. syntax
+b. "this" keyword works differently
+c. call, bind and apply does not work in arrow function
+d. arguments is only valid for classical functions
+
+
+
+call ---- bind + invokation
+
+call and apply - only differs in the way we pass arguments
