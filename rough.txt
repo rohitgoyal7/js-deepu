@@ -44,7 +44,7 @@ THIS - refers to the object who has called the function. -- classical functions
 
 
 
-ARROW vs CLASSICAL FUNCTION
+ARROW vs CLASSICAL FUNCTIONS
 a. syntax
 b. "this" keyword works differently
 c. call, bind and apply does not work in arrow function
@@ -55,3 +55,15 @@ d. arguments is only valid for classical functions
 call ---- bind + invokation
 
 call and apply - only differs in the way we pass arguments
+
+closure ----- all the variables of outer fn are still accessible from the returned function
+
+
+rest operator  ---- ...
+spread operator --- ...
+
+spread operator only merges the owned properties, not the inherited
+
+map - we  can modify the value......
+filter - we can't modify it, but we can decide whether it needs to be returned or not
+some  --- checks for any condition and the return type is a boolean.... checks for the first truthy condition
