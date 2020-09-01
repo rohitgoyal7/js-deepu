@@ -67,3 +67,8 @@ spread operator only merges the owned properties, not the inherited
 map - we  can modify the value......
 filter - we can't modify it, but we can decide whether it needs to be returned or not
 some  --- checks for any condition and the return type is a boolean.... checks for the first truthy condition
+
+some ---- checks for "any" condition..... and if it finds the first true as the returned value, the execution stops
+every ---- checks for all condition... and and if it finds the first false as the returned value, the execution stops
+
+reduce --- whenever we need to traverse an array and get a particular entity out of it
